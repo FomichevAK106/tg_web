@@ -1,0 +1,13 @@
+.settings {
+    display:grid;
+    grid-template-columns: max-content max-content;
+    grid-gap:5px;
+    align-self: center;
+    background-color: blue;
+}
+.settings label       { text-align:right; }
+.settings label:after { content: ":"; }
+
+.slider {
+
+}
